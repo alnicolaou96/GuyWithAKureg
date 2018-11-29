@@ -3,4 +3,19 @@
     grid-template-rows:repeat(10,100px);
     grid-template-columns:repeat(10,1fr);
     margin:0px 0px 0px 0px;
+    background-color:rgb(255, 95, 134);
+}
+.navbar{
+    background-color:black;
+    color:white;
+    display:flex;
+    align-content:flex-start;
+    grid-column:span 10;
+    border-bottom:10px solid white;
+}
+#map{
+    width:100%;
+    height:400px;
+    background-color:gray;
+    grid-column:span 10;
 }
