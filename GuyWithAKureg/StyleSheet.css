@@ -5,7 +5,7 @@
     margin:0px 0px 0px 0px;
     background-color:rgb(255, 95, 134);
 }
-.navbar{
+.titlebar{
     background-color:black;
     color:white;
     display:flex;
@@ -18,4 +18,25 @@
     height:400px;
     background-color:gray;
     grid-column:span 10;
+    grid-row:span 4;
+}
+.navbar {
+    position: absolute;
+    bottom: 0px;
+    grid-column: span 10;
+    width: 100%;
+    align-content: flex-end;
+}
+.navbar ul{
+    height:50px;
+    display:flex;
+    list-style:none;
+    margin:0px auto;
+    background-color:black;
+    color:white;
+    border-top:10px solid white;
+}
+.navbar ul li{
+    flex-basis:10%;
+    text-align:center;
 }
